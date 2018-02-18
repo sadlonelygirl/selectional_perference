@@ -1,0 +1,22 @@
+- ./run.sh -> will generate result.txt
+  (It takes some hours)
+
+- executeSL.sh: running selection preference models
+
+- executeBaseLine.sh running baseline models
+
+- phrases: transitive verb phrases from BNC (British National Corpus), extracted with Stanford parser
+
+- GS2011data.txt: dataset developed by Grefenstette&Sadrzadeh2011 (http://compling.eecs.qmul.ac.uk/wp-content/uploads/2015/07/GS2011data.txt)
+
+- embeddingW2V.py: selection preference model use word2vec embedding, generate a cosine similarity score for each entity
+
+- embeddingGlove.py: selectional preference model use GloVe embedding, generate a cosine similarity score for each entity
+ 
+- baselineW2V.py: baseline model(without selectional preference), use simple element-wise addition and multiplication for combining subject and object with verb with word2vec embedding
+
+- baselineGlove.py: baseline model(without selectional preference), use simple element-wise addition and multiplication for combining subject and object with verb with Glove embedding
+
+- resultCompute.py: evaluation, compute the means for High and Low similarity items and the correlation coefficient of the human judgements with the model’s similarity judgements (Spearman’s rho) of all models
+
+

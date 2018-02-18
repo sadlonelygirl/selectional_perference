@@ -1,0 +1,16 @@
+model selectional preference, dot product, word2vec
+mkdir: cannot create directory ‘ResDotW2V’: File exists
+model selectional preference, multiplication, word2vec
+mkdir: cannot create directory ‘ResMalW2V’: File exists
+model selectional preference, dot product, GloVe
+mkdir: cannot create directory ‘ResDotGlove’: File exists
+model selectional preference, multiplication, GloVe
+mkdir: cannot create directory ‘ResMalGlove’: File exists
+model baseline, addition, word2vec
+mkdir: cannot create directory ‘ResBaseAddW2V’: File exists
+model baseline, multiplication, word2vec
+mkdir: cannot create directory ‘ResBaseMalW2V’: File exists
+model baseline, addition, GloVe
+mkdir: cannot create directory ‘ResBaseAddGlove’: File exists
+model baseline, multiplication, GloVe
+mkdir: cannot create directory ‘ResBaseMalGlove’: File exists

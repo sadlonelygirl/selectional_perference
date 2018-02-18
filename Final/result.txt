@@ -1,0 +1,31 @@
+selectional preference, dot product, word2vec: 
+high, low: (0.905233490498, 0.8731305560708704)
+rho: 0.135697651818
+
+selectional preference, multiplication, word2vec: 
+(0.8535331108777339, 0.815355111121889)
+0.255671357886
+
+selectional preference, dot product, GloVe: 
+high, low: (0.8767346051798401, 0.8565570065569815)
+rho: 0.218718629454
+
+selectional preference, multiplication, GloVe:
+high, low: (0.8699903138368617, 0.8505374418815088)
+rho: 0.23224267872
+
+baseline, addition, word2vec: 
+high, low: (0.8378025760869567, 0.8265667980769228)
+rho: 0.18613982102
+
+baseline, multiplication, word2vec: 
+high, low: (0.3855387847826089, 0.32970185192307677)
+rho:0.140911952442
+
+baseline, addition, GloVe: 
+high, low: (0.9032399104108939, 0.8963481641211389)
+rho:0.23000201645
+
+baseline, multiplication, GloVe: 
+high, low: (0.9669408672310638, 0.9285885357188056)
+rho:0.0675809364629
